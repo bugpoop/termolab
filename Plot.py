@@ -1,6 +1,8 @@
 import Regression
 import numpy as np 
 import matplotlib.pyplot as plt 
+import formulas
+formulas.ideal_gas()
 x = np.loadtxt("datax")
 y = np.loadtxt("datay")
 a = input("Enter x label")
